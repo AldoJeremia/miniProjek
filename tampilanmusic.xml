@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="410dp"
+        android:layout_height="344dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diri"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hati - Hati Dijalan"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TULUS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="343dp"
+        android:layout_height="36dp"
+        android:scrollbarStyle="insideInset"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00.00"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03.49"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="105dp"
+        android:layout_height="82dp"
+        app:srcCompat="@drawable/pasue2"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/preee"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/nex"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        app:srcCompat="@drawable/like"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="428dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
